@@ -8,7 +8,7 @@ public class Pincode {
 
    public boolean checkPattern(String name) {
 	   boolean result = false;
-	   String pattern = "^[0-9]{6}$";
+	   String pattern = "^([\s]?[0-9]){6}$";
 	   
 	   // Create a Pattern object
 	   Pattern r = Pattern.compile(pattern);
